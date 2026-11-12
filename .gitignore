@@ -3,3 +3,12 @@ node_modules/
 .vercel
 *.log
 .DS_Store
+
+# تطبيق MCP الرئيسي (mcp-app/)
+mcp-app/node_modules
+mcp-app/.env
+mcp-app/.env.*
+!mcp-app/.env.example
+mcp-app/.next
+mcp-app/next-env.d.ts
+mcp-app/*.tsbuildinfo
